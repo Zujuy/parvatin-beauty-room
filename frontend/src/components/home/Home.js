@@ -1,11 +1,16 @@
 import React from 'react';
-import portada from "../../images/portada.png";
+import logo from "../../images/parvati_logo.png";
 
 function Home() {
   return (
-    <div className="workingImage"
-      style={{ backgroundImage: `url(${portada})` }}>
-    </div>
+    <div className="home">
+      <img src={logo} alt="logo" />
+      <div className="hometitle">
+        <h2>Es momento de empezar a cuidarte</h2>
+      </div>
+    </div >
+
+
   );
 }
 
