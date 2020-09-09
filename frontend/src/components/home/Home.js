@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../../images/parvati_logo.png";
+import Carrousel from "../../components/home/Carrousel"
 
 function Home() {
   return (
@@ -10,7 +11,10 @@ function Home() {
       </div>
     </div >
 
+    <div className="carrouselStyle">
+      <carrousel />
 
+    </div>
   );
 }
 
