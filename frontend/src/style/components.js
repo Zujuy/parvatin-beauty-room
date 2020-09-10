@@ -179,3 +179,6 @@ p{
   text-align: center;
 }
 `
+export const SignForm = styled.section`
+
+`
