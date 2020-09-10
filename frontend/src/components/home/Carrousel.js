@@ -2,8 +2,9 @@ import React from "react";
 import { Gallery, GalleryImage } from "react-gesture-gallery"
 import { withRouter } from 'react-router-dom';
 
+
 const images = [
-  "carrousel1.jpeg",
+  "carrousel1.jpg",
   "carrousel2.jpg",
   "carrousel3.jpg",
 
@@ -20,14 +21,14 @@ function Carousel() {
       } else {
         setIndex(prev => prev + 1);
       }
-    }, 3000);
+    }, 6000);
     return () => clearInterval(timer);
   }, [index]);
 
   return (
     <Gallery
       style={{
-        Height: "100px",
+        Height: "100vh",
         width: "100vw",
         padding: 0,
         margin: 0,
