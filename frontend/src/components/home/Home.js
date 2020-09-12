@@ -5,7 +5,8 @@ import Carrousel from "../../components/home/Carrousel"
 import Aboutus from "../../components/home/Aboutus"
 import Services from "../../components/home/Services"
 import Testimonies from './Testimonies';
-import Form from './Form'
+import Form from './Form';
+import Footer from './Footer';
 
 
 
@@ -37,6 +38,10 @@ function Home() {
 
       <div>
         <Form />
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </div>
 

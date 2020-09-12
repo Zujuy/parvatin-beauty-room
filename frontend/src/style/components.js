@@ -68,7 +68,7 @@ button:hover {
   margin-right: 50%;
   display: inline-block;
   order: 2;
-  flex-grow: 1;
+  flex-grow: 2;
   padding: 100px;
 
 }
@@ -220,4 +220,17 @@ input[type=submit] {
   border: 2px solid ${colors.color2};
   border-radius:4px;
   padding: 10px;
+`
+export const Styledfooter = styled.section`
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: left;
+padding: 10%;
+background-color: ${colors.color2};
+color: white;
+
+.direction{
+  margin-left: 35%;
+}
 `
