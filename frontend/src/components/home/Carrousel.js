@@ -28,7 +28,7 @@ function Carousel() {
   return (
     <Gallery
       style={{
-        Height: "100vh",
+        Height: "90vh",
         width: "100vw",
         padding: 0,
         margin: 0,

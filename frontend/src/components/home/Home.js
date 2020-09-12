@@ -7,12 +7,15 @@ import Services from "../../components/home/Services"
 import Testimonies from './Testimonies';
 import Form from './Form';
 import Footer from './Footer';
+import Footer2 from './Designfooter';
+import RRSSbar from './Socialmedia';
 
 
 
 function Home() {
   return (
     <div>
+
       <div className="home">
         <img src={logo} alt="logo" />
         <div className="hometitle">
@@ -42,6 +45,10 @@ function Home() {
 
       <div>
         <Footer />
+      </div>
+
+      <div>
+        <Footer2 />
       </div>
     </div>
 

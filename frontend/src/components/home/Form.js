@@ -6,7 +6,7 @@ function Form() {
   return (
     <div>
       <SignForm>
-        <h4>INSCRIBETE</h4>
+        <h2>INSCRIBETE</h2>
         <p>No te pierdas nada de nuestros próximos descuentos y promociones,solo llena los siguientes campos.</p>
         <form>
 
