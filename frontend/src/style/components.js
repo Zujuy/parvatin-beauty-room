@@ -180,5 +180,44 @@ p{
 }
 `
 export const SignForm = styled.section`
+display: flex;
+align-items: center;
+flex-direction:column;
+justify-content: space-between;
+background-color: white;
+text-align:center;
+align-content:center;
+color: ${colors.text};
+flex-wrap: wrap
 
+h4{
+  font-size: xx-large;
+  text-align: center;
+}
+
+p{
+  font-size: large;
+  text-align: center;
+}
+
+input{
+  width: 70%;
+  background-color: ${colors.color1};
+  border: 2px solid ${colors.color1};
+  border-radius:8px;
+  color: ${colors.color2};
+  opacity:0.5;
+  font-size: large;
+  padding: 10px;
+  margin-bottom:5px;
+
+}
+
+input[type=submit] {
+  width:150px;
+  background-color: ${colors.color2};
+  color: white;
+  border: 2px solid ${colors.color2};
+  border-radius:4px;
+  padding: 10px;
 `

@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from "../../images/parvati_logo.png";
-import { Carousel, About, OurServices, Grades } from "../../style/components"
+import { Carousel, About, OurServices, Grades, SignForm } from "../../style/components"
 import Carrousel from "../../components/home/Carrousel"
 import Aboutus from "../../components/home/Aboutus"
 import Services from "../../components/home/Services"
 import Testimonies from './Testimonies';
+import Form from './Form'
 
 
 
@@ -32,6 +33,10 @@ function Home() {
 
       <div>
         <Testimonies />
+      </div>
+
+      <div>
+        <Form />
       </div>
     </div>
 
