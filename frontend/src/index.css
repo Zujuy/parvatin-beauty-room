@@ -1,25 +1,3 @@
-@font-face {
-  font-family: 'Acumin';
-  src: local('Acumin'), url(./fonts/AcuminVariableConcept.otf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: local('Helveticamedium'), url(./fonts/HelveticaNeueLTStd-Bd.otf) format('truetype');
-  src: local('Helveticabold'), url(./fonts/HelveticaNeueLTStd-Hv.otf) format('truetype');
-  src: local('Helveticaregular'), url(./fonts/helveticaneueltstd-md.otf) format('truetype');
-  src: local('Helveticaroman'), url(./fonts/HelveticaNeueLTStd-Roman.otf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Myriad';
-  src: local('Myriad'), url(./fonts/MyriadPro-Regular.otf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Summer';
-  src: local('Summer'), url(./fonts/SummerFontBold.otf) format('truetype');
-}
 
 body {
   width: 100%;

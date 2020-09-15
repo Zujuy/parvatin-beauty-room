@@ -21,6 +21,17 @@ padding: 0 2rem;
 
 }
 `
+//carouselbootstrap
+export const CarouselStyled = styled.section`
+width:100vw;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+overflow-y: scroll;
+padding: 0;
+
+}
+`
 
 //sobre nosotros 
 export const About = styled.section`
@@ -129,7 +140,7 @@ export const TextServices = styled.section`
 display: flex;
 align-items: center;
 background-color: ${colors.color1};
-flex-flow: nowrap;
+flex-flow: wrap;
 justify-content: space-evenly;
 flex-direction: row;
 color: ${colors.text};
@@ -139,19 +150,19 @@ margin-top:0px;
 .textbeauty{
   order:1;
   flex-grow:1;
-  width: 20%;
+
 }
 
 .textnutrition{
   order:2;
   flex-grow:1;
-  width: 20%;
+
 }
 
 .textworkout{
   order:3;
   flex-grow:1;
-  width: 20%;
+
 }
 
 h4{
@@ -226,13 +237,21 @@ input{
 
 }
 
+placeholder{
+  color: ${colors.color2};
+}
+
 input[type=submit] {
-  width:150px;
-  background-color: ${colors.color2};
+  width: 300px;
+  height:50px;
+  font-size: medium;
+  background-color:${colors.color2};
+  border-radius: 8px;
+  border:2px solid #FA8184; 
   color: white;
-  border: 2px solid ${colors.color2};
-  border-radius:4px;
+  transition-duration: 0.4s;
   padding: 10px;
+}
 `
 // footer
 export const Styledfooter = styled.section`

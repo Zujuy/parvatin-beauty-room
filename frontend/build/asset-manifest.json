@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.962ee78a.chunk.css",
-    "main.js": "/static/js/main.d3f29a67.chunk.js",
-    "main.js.map": "/static/js/main.d3f29a67.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dc128e9d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dc128e9d.js.map",
-    "static/js/2.72d07ac7.chunk.js": "/static/js/2.72d07ac7.chunk.js",
-    "static/js/2.72d07ac7.chunk.js.map": "/static/js/2.72d07ac7.chunk.js.map",
+    "main.css": "/static/css/main.0dba1e71.chunk.css",
+    "main.js": "/static/js/main.a1f52ca2.chunk.js",
+    "main.js.map": "/static/js/main.a1f52ca2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ace60905.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ace60905.js.map",
+    "static/js/2.d1734755.chunk.js": "/static/js/2.d1734755.chunk.js",
+    "static/js/2.d1734755.chunk.js.map": "/static/js/2.d1734755.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.da89263753f273fa47ab5857fc078503.js": "/precache-manifest.da89263753f273fa47ab5857fc078503.js",
+    "precache-manifest.4ff5e1d9022dab902f0d0876c4af912a.js": "/precache-manifest.4ff5e1d9022dab902f0d0876c4af912a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.962ee78a.chunk.css.map": "/static/css/main.962ee78a.chunk.css.map",
-    "static/media/portada.png": "/static/media/portada.77ccd395.png"
+    "static/css/main.0dba1e71.chunk.css.map": "/static/css/main.0dba1e71.chunk.css.map",
+    "static/media/AcuminVariableConcept.otf": "/static/media/AcuminVariableConcept.f96253aa.otf",
+    "static/media/HelveticaNeueLTStd-Bd.otf": "/static/media/HelveticaNeueLTStd-Bd.dd719c75.otf",
+    "static/media/HelveticaNeueLTStd-Hv.otf": "/static/media/HelveticaNeueLTStd-Hv.19f8d00e.otf",
+    "static/media/HelveticaNeueLTStd-Roman.otf": "/static/media/HelveticaNeueLTStd-Roman.c50cafe2.otf",
+    "static/media/MyriadPro-Regular.otf": "/static/media/MyriadPro-Regular.4dc5956a.otf",
+    "static/media/SummerFontBold.otf": "/static/media/SummerFontBold.ac1b26c6.otf",
+    "static/media/aboutusimage.png": "/static/media/aboutusimage.b2a2060b.png",
+    "static/media/helveticaneueltstd-md.otf": "/static/media/helveticaneueltstd-md.f0d7d673.otf",
+    "static/media/opiniones.png": "/static/media/opiniones.f6ba7ecb.png",
+    "static/media/parvati_logo.png": "/static/media/parvati_logo.e6d0013f.png",
+    "static/media/parvatilogo2.png": "/static/media/parvatilogo2.f5705ae0.png"
   }
 }
