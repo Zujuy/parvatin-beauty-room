@@ -15,21 +15,25 @@ function Carousel() {
           <div class="carousel-item active">
             <img src="carrousel1.jpg" class="d-block w-100" alt="piel hermosa" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-
+              <div className="boton1">
+                <button type="button" class="btn text-light">CLICK AQUÍ</button>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="carrousel2.jpg" class="d-block w-100" alt="healty" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+              <div className="boton2">
+                <button type="button" class="btn text-light">¡EMPIEZA AHORA!</button>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="carrousel3.jpg" class="d-block w-100" alt="Massage" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-
+              <div className="boton3">
+                <button type="button" class="btn text-light">¡EMPIEZA AHORA!</button>
+              </div>
             </div>
           </div>
         </div>
@@ -42,7 +46,7 @@ function Carousel() {
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </CarouselStyled>
+    </CarouselStyled >
   )
 }
 export default withRouter(Carousel)
