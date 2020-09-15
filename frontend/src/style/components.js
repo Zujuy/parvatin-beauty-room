@@ -30,6 +30,40 @@ flex-direction: row;
 overflow-y: scroll;
 padding: 0;
 
+.boton1{
+  margin-bottom:30%;
+  width: 200px;
+  height:50px;
+  font-size: medium;
+  background-color:${colors.text};
+  border-radius: 8px; 
+  color: white;
+  transition-duration: 0.4s;
+  padding: 5px;
+}
+
+.boton2{
+  width: 200px;
+  height:50px;
+  font-size: medium;
+  background-color:${colors.buttoncarrousel};
+  border-radius: 8px; 
+  color: white;
+  transition-duration: 0.4s;
+  padding: 5px;
+  margin-left:90%;
+}
+
+.boton3{
+  width: 200px;
+  height:50px;
+  font-size: medium;
+  background-color:${colors.color2};
+  border-radius: 8px; 
+  color: white;
+  transition-duration: 0.4s;
+  margin-bottom:30%;
+  margin-left:80%;
 }
 `
 
