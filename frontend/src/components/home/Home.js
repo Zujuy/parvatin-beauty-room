@@ -26,14 +26,18 @@ function Home() {
         >
           <i class="fa fa-instagram"></i>
         </a>
-        <a href="#" class="whatsapp">
+        <a
+          href="https://wa.me/message/QHIRF3BWWU5BC1"
+          target="_blank"
+          class="whatsapp"
+        >
           <i class="fa fa-whatsapp"></i>
         </a>
       </div>
       <div className="home">
         <img src={logo} alt="logo" />
         <div className="hometitle">
-          <h2>Es momento de empezar a cuidarte</h2>
+          <h3>Es momento de empezar a cuidarte</h3>
         </div>
       </div>
       <div>

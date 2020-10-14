@@ -148,6 +148,7 @@ export const IconsServices = styled.section`
   display: flex;
   background-color: ${colors.color1};
   width: 100%;
+  margin-left: 0px;
 
   .beautyicon {
     order: 1;
@@ -169,6 +170,8 @@ export const TextServices = styled.section`
   background-color: ${colors.color1};
   color: ${colors.text};
   width: 100%;
+  margin-left: 0px;
+  padding: 0px;
 
   .textbeauty {
     order: 1;
@@ -178,16 +181,19 @@ export const TextServices = styled.section`
   .textnutrition {
     order: 2;
     flex-grow: 1;
+    padding: 0px;
   }
 
   .textworkout {
     order: 3;
     flex-grow: 1;
+    padding: 0px;
   }
 
   h4 {
     font-size: xx-large;
     text-align: center;
+    padding: 0px;
   }
 
   p {

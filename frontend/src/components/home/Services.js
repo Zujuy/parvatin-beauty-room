@@ -11,6 +11,9 @@ import workout from '../../images/workout.png';
 import workout_modal from '../../images/workout_modal.png';
 import nutrition_modal from '../../images/nutrition_modal.png';
 import beauty_modal from '../../images/beauty_modal.png';
+import workout_image from '../../images/workout_image.png';
+import nutrition_image from '../../images/nutrition_image.png';
+import beauty_image from '../../images/beauty_image.png';
 
 function Services() {
   return (
@@ -83,6 +86,7 @@ function Services() {
                     puedan tener.<br></br> <br></br> Es momento de empezar a
                     cuidarte y nosotras decimos cómo.
                   </p>
+                  <img src={beauty_image} alt="beauty" />
                 </div>
               </div>
             </div>
@@ -134,6 +138,7 @@ function Services() {
                     Nosotras te armamos una dieta balanceada, basada en tus
                     objetivos y lo que tu cuerpo necesita.{' '}
                   </p>
+                  <img src={nutrition_image} alt="nutrition" />
                 </div>
               </div>
             </div>
@@ -148,7 +153,7 @@ function Services() {
             data-toggle="modal"
             data-target="#exampleModalCenter3"
           >
-            NUTRITION
+            WORKOUT
           </button>
           {/* modal body */}
           <div
@@ -184,6 +189,7 @@ function Services() {
                     <br></br> <br></br>Únete a los retos que tenemos preparados
                     para ti y mantente en forma.
                   </p>
+                  <img src={workout_image} alt="workout" />
                 </div>
               </div>
             </div>
