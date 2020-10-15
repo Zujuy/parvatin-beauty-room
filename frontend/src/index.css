@@ -4,9 +4,44 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  font-family: 'Acumin, Myriad, Summer, Helvetica';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Acumin';
+  src: local('Acumin'),
+    url(./fonts/AcuminVariableConcept.otf) format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaBold';
+  src: local('HelveticaBold'),
+    url(./fonts/HelveticaNeueLTStd-Bd.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helveticahv';
+  src: local('helveticahv'),
+    url(./fonts/HelveticaNeueLTStd-Hv.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('helvetica'),
+    url(./fonts/helveticaneueltstd-md.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaRoman';
+  src: local('HelveticaRoman'),
+    url(./fonts/HelveticaNeueLTStd-Roman.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: local('Myriad'), url(./fonts/MyriadPro-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Summer';
+  src: local('Summer'), url(./fonts/SummerFontBold.otf) format('truetype');
 }
 
 code {
@@ -25,7 +60,7 @@ code {
   padding: 3%;
   font-size: xx-large;
   color: #334353;
-  font-family: 'Acumin';
+  font-family: Acumin;
 }
 
 .icon-bar {

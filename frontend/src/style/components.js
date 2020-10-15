@@ -39,7 +39,8 @@ export const CarouselStyled = styled.section`
     border-radius: 8px;
     color: white;
     transition-duration: 0.4s;
-    padding: 5px;
+    padding: 0px;
+    font-family: Summer;
   }
 
   .boton2 {
@@ -50,8 +51,9 @@ export const CarouselStyled = styled.section`
     border-radius: 8px;
     color: white;
     transition-duration: 0.4s;
-    padding: 5px;
+    padding: 0px;
     margin-left: 90%;
+    font-family: Summer;
   }
 
   .boton3 {
@@ -64,6 +66,7 @@ export const CarouselStyled = styled.section`
     transition-duration: 0.4s;
     margin-bottom: 30%;
     margin-left: 80%;
+    font-family: Summer;
   }
 `;
 
@@ -87,12 +90,14 @@ export const About = styled.section`
     font-size: xx-large;
     color: ${colors.text};
     padding-right: 30px;
+    font-family: HelveticaBold;
   }
 
   p {
     font-size: x-large;
     color: ${colors.text};
     padding-right: 30px;
+    font-family: HelveticaRoman;
   }
 
   button {
@@ -104,7 +109,8 @@ export const About = styled.section`
     border: 2px solid #fa8184;
     color: white;
     transition-duration: 0.4s;
-    padding: 10px;
+    padding: 0px;
+    font-family: Summer;
   }
 
   .imageabout {
@@ -116,6 +122,7 @@ export const About = styled.section`
     padding: 100px;
   }
 `;
+
 //nuestros servicios
 export const OurServices = styled.section`
   display: flex;
@@ -134,6 +141,7 @@ export const OurServices = styled.section`
   h4 {
     font-size: xx-large;
     text-align: center;
+    font-family: HelveticaBold;
   }
 
   p {
@@ -141,14 +149,17 @@ export const OurServices = styled.section`
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    font-family: HelveticaRoman;
   }
 `;
+
 //botones servicios
 export const IconsServices = styled.section`
   display: flex;
   background-color: ${colors.color1};
   width: 100%;
   margin-left: 0px;
+  padding-left: 40px;
 
   .beautyicon {
     order: 1;
@@ -157,13 +168,16 @@ export const IconsServices = styled.section`
   .nutritionicon {
     order: 2;
     flex-grow: 1;
+    padding-left: 50px;
   }
 
   .workouticon {
     order: 3;
     flex-grow: 1;
+    padding-left: 50px;
   }
 `;
+
 //servicios textos
 export const TextServices = styled.section`
   display: flex;
@@ -171,37 +185,55 @@ export const TextServices = styled.section`
   color: ${colors.text};
   width: 100%;
   margin-left: 0px;
-  padding: 0px;
+  padding-left: 40px;
 
   .textbeauty {
     order: 1;
-    flex-grow: 1;
+    flex-grow: 3;
+    padding: 0px;
   }
 
   .textnutrition {
     order: 2;
-    flex-grow: 1;
+    flex-grow: 3;
     padding: 0px;
   }
 
   .textworkout {
     order: 3;
-    flex-grow: 1;
+    flex-grow: 3;
     padding: 0px;
   }
 
   h4 {
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
     padding: 0px;
+    font-family: Acumin;
   }
 
   p {
     font-size: large;
     text-align: center;
+    font-family: Acumin;
   }
 
   .button {
+    font-family: Acumin;
+  }
+
+  .modal-content {
+    width: 700px;
+    background-color: ${colors.color2};
+    color: white;
+  }
+
+  .modal-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: Acumin;
   }
 `;
 //comentarios
@@ -219,6 +251,8 @@ export const Grades = styled.section`
   h4 {
     font-size: xx-large;
     text-align: center;
+    font-family: HelveticaBold;
+    margin-top: 100px;
   }
 
   p {
@@ -226,6 +260,7 @@ export const Grades = styled.section`
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+    font-family: HelveticaRoman;
   }
 `;
 
@@ -238,17 +273,22 @@ export const SignForm = styled.section`
   background-color: white;
   text-align: center;
   align-content: center;
-  color: ${colors.text};
+  margin-top: 50px;
   flex-wrap: wrap h2 {
     font-size: xxx-large;
     text-align: center;
   }
 
+  h2 {
+    font-family: HelveticaBold;
+  }
   p {
     font-size: large;
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
+    font-family: HelveticaRoman;
+    color: ${colors.text};
   }
 
   input {
@@ -268,15 +308,16 @@ export const SignForm = styled.section`
   }
 
   input[type='submit'] {
-    width: 300px;
+    padding: 0px;
+    font-family: Summer;
+    width: 150px;
     height: 50px;
-    font-size: medium;
+    font-size: 30px;
     background-color: ${colors.color2};
     border-radius: 8px;
     border: 2px solid #fa8184;
     color: white;
     transition-duration: 0.4s;
-    padding: 10px;
   }
 `;
 // footer
@@ -289,8 +330,15 @@ export const Styledfooter = styled.section`
   background-color: ${colors.color2};
   color: white;
 
+  h3 {
+    font-family: HelveticaBold;
+  }
+
+  p {
+    font-family: Helvetica;
+  }
   .direction {
-    margin-left: 35%;
+    margin-left: 25%;
   }
 `;
 export const Designfooter = styled.section`
@@ -299,4 +347,9 @@ export const Designfooter = styled.section`
   align-items: center;
   background-color: ${colors.copywrite};
   color: white;
+  padding: 10px;
+
+  p {
+    font-family: HelveticaRoman;
+  }
 `;

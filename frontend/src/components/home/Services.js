@@ -50,7 +50,7 @@ function Services() {
             data-toggle="modal"
             data-target="#exampleModalCenter1"
           >
-            BEAUTY
+            <h2>BEAUTY</h2>
           </button>
           {/* modal body */}
           <div
@@ -104,7 +104,7 @@ function Services() {
             data-toggle="modal"
             data-target="#exampleModalCenter2"
           >
-            NUTRITION
+            <h2>NUTRITION</h2>
           </button>
           {/* modal body */}
           <div
@@ -153,7 +153,7 @@ function Services() {
             data-toggle="modal"
             data-target="#exampleModalCenter3"
           >
-            WORKOUT
+            <h2>WORKOUT</h2>
           </button>
           {/* modal body */}
           <div
