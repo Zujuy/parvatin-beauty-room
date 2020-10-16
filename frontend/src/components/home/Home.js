@@ -7,33 +7,24 @@ import Form from './Form';
 import Footer from './Footer';
 import Footer2 from './Designfooter';
 import Carousel from './Carousel2';
+import { useMediaQuery, MediaQuery } from 'react-responsive';
+import HomeMobile from '../mobile/HomeMobile';
+import RRSSBar from './SocialBar';
 
 function Home() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(max-device-width: 1024px)',
+  });
+
   return (
     <div>
-      <div class="icon-bar">
-        <a
-          href="https://www.facebook.com/Parvati-Beauty-Room-103248328161616"
-          target="_blank"
-          class="facebook"
-        >
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/parvati.br/"
-          target="_blank"
-          class="instagram"
-        >
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a
-          href="https://wa.me/message/QHIRF3BWWU5BC1"
-          target="_blank"
-          class="whatsapp"
-        >
-          <i class="fa fa-whatsapp"></i>
-        </a>
-      </div>
+      {isDesktopOrLaptop && (
+        <>
+          {' '}
+          <HomeMobile />{' '}
+        </>
+      )}
+
       <div className="home">
         <img src={logo} alt="logo" />
         <div className="hometitle">
