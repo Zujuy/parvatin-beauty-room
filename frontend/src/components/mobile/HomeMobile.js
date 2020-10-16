@@ -132,10 +132,6 @@ function HomeMobile() {
           </div>
           <div className="circles">
             <img src={beautycircle} alt="beauty" />
-<<<<<<< HEAD
-
-=======
->>>>>>> 3035fcdab825912a0cb3c54b903d720be6cf0fa3
             <img src={nutritioncircle} alt="nutrition" />
 
             <img src={workoutcircle} alt="workout" />
