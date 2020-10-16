@@ -353,3 +353,63 @@ export const Designfooter = styled.section`
     font-family: HelveticaRoman;
   }
 `;
+
+//home mobile
+export const HomeMobileStyle = styled.section`
+  width: 380px;
+  height: 812px;
+  background-color: ${colors.color1};
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 40%;
+    padding-top: 70%;
+  }
+
+  h3 {
+    padding-top: 20%;
+    font-size: large;
+  }
+`;
+
+//socialmedia
+export const SocialMediaMobile = styled.section`
+  .icon-bar {
+    display: flex;
+    flex-direction: row;
+    top: 5%;
+    -webkit-transform: translateX(60%);
+    -ms-transform: translateX(60%);
+    transform: translateX(60%);
+  }
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  .icon-bar a:hover {
+    background-color: #fa8184;
+  }
+
+  .facebook {
+    background: #334353;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+
+  .instagram {
+    background: #334353;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+`;

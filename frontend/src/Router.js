@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './components/home/Home';
+import HomeMobile from './components/mobile/HomeMobile.js';
 import NotFound from './components/404/NotFound.js';
 
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={HomeMobile} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
