@@ -340,7 +340,7 @@ export const SignForm = styled.section`
     color: ${colors.text};
   }
 
-  input {
+  .styledform input {
     width: 90%;
     background-color: ${colors.color1};
     border: 2px solid ${colors.color1};
@@ -352,11 +352,11 @@ export const SignForm = styled.section`
     margin-bottom: 30px;
   }
 
-  placeholder {
+  .styledform placeholder {
     color: ${colors.color2};
   }
 
-  input[type='submit'] {
+  .styledform button {
     padding: 0px;
     font-family: Summer;
     width: 150px;
@@ -627,7 +627,7 @@ export const MobileFormStyle = styled.section`
     color: ${colors.text};
   }
 
-  input {
+  .mobilestyledform input {
     width: 90%;
     background-color: ${colors.color1};
     border: 2px solid ${colors.color1};
@@ -639,11 +639,11 @@ export const MobileFormStyle = styled.section`
     margin-bottom: 30px;
   }
 
-  placeholder {
+  .mobilestyledform placeholder {
     color: ${colors.color2};
   }
 
-  input[type='submit'] {
+  .mobilestyledform button {
     padding: 0px;
     font-family: Summer;
     width: 150px;

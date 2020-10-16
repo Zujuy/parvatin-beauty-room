@@ -2,41 +2,52 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { MobileFormStyle } from '../../style/components';
 import useForm from '../../hooks/useForm';
+import { postRegisterPotentialUserService } from '../../api/api';
 
-function MobileForm() {
+function MobileForm(props) {
   const [form, handleInputs] = useForm();
+
+  const handleRegister = () => {
+    postRegisterPotentialUserService(form)
+      .then((response) => {
+        props.history.push('/');
+      })
+      .catch((err) => {
+        console.log(err.response);
+      });
+  };
+
   return (
     <div>
       <MobileFormStyle>
-        <h5>INSCRIBETE</h5>
+        <h2>INSCRIBETE</h2>
         <p>
-          No te pierdas nada de nuestros próximos descuentos y promociones, solo
+          No te pierdas nada de nuestros próximos descuentos y promociones,solo
           llena los siguientes campos.
         </p>
-        <form>
+        <div className="mobilestyledform">
           <input
             type="text"
-            name="nombre"
+            name="name"
             placeholder="Nombre Completo"
             onChange={(e) => handleInputs(e)}
           />
-
           <input
             type="text"
-            name="celular"
+            name="number"
             placeholder="Número de celular"
             onChange={(e) => handleInputs(e)}
           />
-
           <input
             type="mail"
-            name="mail"
+            name="email"
             placeholder="Correo electrónico"
             onChange={(e) => handleInputs(e)}
           />
           <br></br>
-          <input type="submit" value="ENVIAR" />
-        </form>
+          <button onClick={handleRegister}> Enviar </button>
+          <br></br> <br></br>
+        </div>
       </MobileFormStyle>
     </div>
   );

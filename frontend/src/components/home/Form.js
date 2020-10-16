@@ -2,41 +2,55 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { SignForm } from '../../style/components';
 import useForm from '../../hooks/useForm';
+import { postRegisterPotentialUserService } from '../../api/api';
+import swal from 'sweetalert2';
 
-function Form() {
+function Form(props) {
   const [form, handleInputs] = useForm();
+
+  const handleRegister = () => {
+    postRegisterPotentialUserService(form)
+      .then((response) => {
+        props.history.push('/');
+      })
+      .catch((err) => {
+        console.log(err.response);
+      });
+  };
+
   return (
     <div>
       <SignForm>
         <h2>INSCRIBETE</h2>
         <p>
-          No te pierdas nada de nuestros próximos descuentos y promociones, solo
+          No te pierdas nada de nuestros próximos descuentos y promociones,solo
           llena los siguientes campos.
         </p>
-        <form>
+        <div className="styledform">
           <input
             type="text"
-            name="nombre"
+            name="name"
             placeholder="Nombre Completo"
             onChange={(e) => handleInputs(e)}
           />
 
           <input
             type="text"
-            name="celular"
+            name="number"
             placeholder="Número de celular"
             onChange={(e) => handleInputs(e)}
           />
 
           <input
             type="mail"
-            name="mail"
+            name="email"
             placeholder="Correo electrónico"
             onChange={(e) => handleInputs(e)}
           />
           <br></br>
-          <input type="submit" value="ENVIAR" />
-        </form>
+          <button onClick={handleRegister}> Enviar </button>
+        </div>
+        <br></br>
       </SignForm>
     </div>
   );
