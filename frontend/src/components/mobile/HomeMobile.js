@@ -8,13 +8,22 @@ import aboutimage from '../../images/abutusmobile.png';
 import beautycircle from '../../images/beautycircle.png';
 import nutritioncircle from '../../images/nutritioncircle.png';
 import workoutcircle from '../../images/workoutcircle.png';
-import { HomeMobileStyle } from '../../style/components';
-import { SocialMediaMobile } from '../../style/components';
-import { IntroMobile } from '../../style/components';
-import { AboutusMobile } from '../../style/components';
-import { ServicesMobile } from '../../style/components';
-import SocialBar from '../../components/home/SocialBar'
-
+import testimonio1 from '../../images/testimonie1.png';
+import testimonio2 from '../../images/testimonie2.png';
+import testimonio3 from '../../images/testimonie3.png';
+import logomobile from '../../images/parvatimobilelogo.png';
+import MobileForm from './MobileForm';
+import {
+  HomeMobileStyle,
+  SocialMediaMobile,
+  IntroMobile,
+  AboutusMobile,
+  ServicesMobile,
+  TestimoniesMobile,
+  MobileFooter,
+  Designfootermobile,
+} from '../../style/components';
+import SocialBar from '../../components/home/SocialBar';
 
 function HomeMobile() {
   return (
@@ -103,12 +112,73 @@ function HomeMobile() {
           </div>
           <div className="circles">
             <img src={beautycircle} alt="beauty" />
-            <p>Tratamientos, productos y cuidado para el cuerpo.</p>
-            <p>Faciales, masajes, belleza, TX's corporales.</p>
             <img src={nutritioncircle} alt="nutrition" />
             <img src={workoutcircle} alt="workout" />
           </div>
         </ServicesMobile>
+      </div>
+
+      <div>
+        <TestimoniesMobile>
+          <div className="testimoniestext">
+            <h4>TESTIMONIOS</h4>
+            <p>
+              En PARVATI nos preocupamos por brindarte el mejor servicio, es por
+              eso que construimos este espacio para que dejes tus comentarios y
+              sugerencias.{' '}
+            </p>
+          </div>
+          <div className="testimonio1">
+            <img src={testimonio1} alt="cliente1" />
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="testimonio2">
+            <img src={testimonio2} alt="cliente2" />
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="testimonio3">
+            <img src={testimonio3} alt="cliente3" />
+          </div>
+          <br></br>
+          <br></br>
+        </TestimoniesMobile>
+      </div>
+      <div>
+        <MobileForm />
+      </div>
+      <div>
+        <MobileFooter>
+          <div className="imagelogo">
+            <img src={logomobile} alt="parvati" />
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="direction">
+            <p>
+              <strong>BEAUTY ROOM SERVICE</strong>
+            </p>
+            <p>
+              Horario 09:00 a 19:00 hrs <br></br> <br></br>+55 7422 6925 | +55
+              5040 8099
+              <br></br>
+              <br></br>beautyroom@parvati.com.mx <br></br>
+              <br></br>Cuauhtémoc, Fernando de Alva Ixtlilxóchitl 111A, Obrera,
+              Cuauhtémoc, 06800 Ciudad de México, CDMX
+            </p>
+          </div>
+        </MobileFooter>
+        <Designfootermobile>
+          <div>
+            <p>
+              Diseñado por: <strong>JÁBALI DIGITAL MARKETING</strong>
+            </p>
+          </div>
+        </Designfootermobile>
       </div>
     </div>
   );

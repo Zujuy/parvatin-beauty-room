@@ -428,7 +428,7 @@ export const SocialMediaMobile = styled.section`
     display: flex;
     position: fixed;
     flex-direction: row;
-    top: 5%;
+    top: 10%;
     -webkit-transform: translateX(60%);
     -ms-transform: translateX(60%);
     transform: translateX(60%);
@@ -467,14 +467,12 @@ export const SocialMediaMobile = styled.section`
 //intro mobile
 export const IntroMobile = styled.section`
   padding-top: 20%;
-  width: 100%;
-  height: 700px;
+  width: 380px;
+  height: 800px;
   background-color: ${colors.intro};
   flex-direction: column;
   justify-content: flex-start;
-  display: flex
-
-  .img {
+  display: flex .img {
     position: relative;
   }
 
@@ -556,8 +554,8 @@ export const ServicesMobile = styled.section`
   padding-right: 10%;
   font-size: small;
   padding-top: 30%;
-  width: 100%;
-  height: 700px;
+  width: 380px;
+  height: 800px;
 
   .circles {
     display: flex;
@@ -565,5 +563,131 @@ export const ServicesMobile = styled.section`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+  }
+`;
+
+//testimonies mobile
+export const TestimoniesMobile = styled.section`
+  background-color: ${colors.intro};
+  text-align: left;
+  font-size: small;
+  padding-top: 30%;
+  width: 380px;
+  height: 1000px;
+
+  .testimoniestext {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .testimonio1 {
+    padding-left: 20px;
+  }
+
+  .testimonio2 {
+    padding-left: 50px;
+  }
+
+  .testimonio3 {
+    padding-left: 20px;
+  }
+`;
+
+//mobile Form
+export const MobileFormStyle = styled.section`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  margin-top: 50px;
+  padding-top: 20%;
+  flex-wrap: wrap h2 {
+    font-size: small;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: HelveticaBold;
+  }
+  p {
+    font-size: small;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: HelveticaRoman;
+    color: ${colors.text};
+  }
+
+  input {
+    width: 90%;
+    background-color: ${colors.color1};
+    border: 2px solid ${colors.color1};
+    border-radius: 8px;
+    color: ${colors.color2};
+    opacity: 0.8;
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  placeholder {
+    color: ${colors.color2};
+  }
+
+  input[type='submit'] {
+    padding: 0px;
+    font-family: Summer;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    border: 2px solid #fa8184;
+    color: white;
+    transition-duration: 0.4s;
+  }
+`;
+//mobile Footer
+export const MobileFooter = styled.section`
+  align-items: center;
+  text-align: left;
+  padding: 5%;
+  background-color: ${colors.color2};
+  color: white;
+  text-align: center;
+  line-height: 0.8em;
+
+  h6 {
+    font-family: HelveticaBold;
+    font-size: small;
+    line-height: 0.8em;
+  }
+
+  p {
+    font-family: Helvetica;
+    font-size: small;
+    line-height: 0.9em;
+  }
+  .direction {
+    margin-left: 5%;
+    font-size: small;
+    align-content: center;
+  }
+`;
+
+export const Designfootermobile = styled.section`
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: ${colors.copywrite};
+  color: white;
+  padding-top: 10px;
+
+  p {
+    font-family: HelveticaRoman;
+    font-size: small;
   }
 `;
