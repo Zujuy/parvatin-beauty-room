@@ -2,7 +2,9 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: 'servidor1346.il.controladordns.com',
+  port: 587,
+  secre: false,
   auth: {
     user: process.env.MAIL_USER,
     pass: process.env.PASSWORD,
@@ -12,8 +14,8 @@ const transporter = nodemailer.createTransport({
 exports.emailRegister = (req, res) => {
   const { email, number, name } = req.body;
   const mailOptions = {
-    from: 'basededatos@parvati.com.mx',
-    to: 'bichous07@gmail.com',
+    from: 'sade.trujillo@parvati.com.mx',
+    to: 'sade.trujillo@parvati.com.mx',
     subject: `Nuevo usuario registrado`,
     text: `
     Un nuevo usuario se ha registrado:
