@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { CarouselStyled } from '../../style/components';
 
-function Carousel() {
+function Carousel(props) {
   return (
     <CarouselStyled>
       <div
@@ -28,7 +28,11 @@ function Carousel() {
             />
             <div class="carousel-caption d-none d-md-block">
               <div className="boton1">
-                <button type="button" class="btn text-light">
+                <button
+                  type="button"
+                  class="btn text-light"
+                  onClick={props.scroll}
+                >
                   <h2>CLICK AQUÍ</h2>
                 </button>
               </div>
@@ -38,7 +42,11 @@ function Carousel() {
             <img src="carrousel2.jpg" class="d-block w-100" alt="healty" />
             <div class="carousel-caption d-none d-md-block">
               <div className="boton2">
-                <button type="button" class="btn text-light">
+                <button
+                  type="button"
+                  class="btn text-light"
+                  onClick={props.scroll}
+                >
                   <h2>¡EMPIEZA AHORA!</h2>
                 </button>
               </div>
@@ -48,7 +56,11 @@ function Carousel() {
             <img src="carrousel3.jpg" class="d-block w-100" alt="Massage" />
             <div class="carousel-caption d-none d-md-block">
               <div className="boton3">
-                <button type="button" class="btn text-light">
+                <button
+                  type="button"
+                  class="btn text-light"
+                  onClick={props.scroll}
+                >
                   <h2>¡EMPIEZA AHORA!</h2>
                 </button>
               </div>

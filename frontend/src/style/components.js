@@ -11,6 +11,54 @@ export const colors = {
   intro: '#F5CAB1',
 };
 
+//RRSSBAR
+export const SocialMediaMenu = styled.section`
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  .icon-bar a:hover {
+    background-color: #fa8184;
+  }
+
+  .facebook {
+    background: #334353;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+
+  .instagram {
+    background: #334353;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+
+  .whatsapp {
+    background: #334353;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+`;
+
 //carousel
 export const Carousel = styled.section`
 margin-top: 1080px;
@@ -292,7 +340,7 @@ export const SignForm = styled.section`
     color: ${colors.text};
   }
 
-  input {
+  .styledform input {
     width: 90%;
     background-color: ${colors.color1};
     border: 2px solid ${colors.color1};
@@ -304,11 +352,11 @@ export const SignForm = styled.section`
     margin-bottom: 30px;
   }
 
-  placeholder {
+  .styledform placeholder {
     color: ${colors.color2};
   }
 
-  input[type='submit'] {
+  .styledform button {
     padding: 0px;
     font-family: Summer;
     width: 150px;
@@ -357,7 +405,7 @@ export const Designfooter = styled.section`
 
 //home mobile
 export const HomeMobileStyle = styled.section`
-  width: 380px;
+  width: 420px;
   height: 812px;
   background-color: ${colors.color1};
   display: flex;
@@ -376,41 +424,43 @@ export const HomeMobileStyle = styled.section`
 
 //socialmedia
 export const SocialMediaMobile = styled.section`
-  .icon-bar {
+  .icon-bar-mobile {
     display: flex;
+    position: fixed;
     flex-direction: row;
-    top: 5%;
+    top: 10%;
     -webkit-transform: translateX(60%);
     -ms-transform: translateX(60%);
     transform: translateX(60%);
   }
 
-  .icon-bar a {
+  .icon-bar-mobile a {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 15px;
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
   }
 
-  .icon-bar a:hover {
+  .icon-bar-mobile a:hover {
     background-color: #fa8184;
   }
 
-  .facebook {
+  .facebook-mobile {
     background: #334353;
     color: white;
     border-radius: 50%;
-    height: 60px;
+    height: 55px;
     width: 60px;
+    margin-left: 10%;
   }
 
-  .instagram {
+  .instagram-mobile {
     background: #334353;
     color: white;
     border-radius: 50%;
-    height: 60px;
+    height: 55px;
     width: 60px;
   }
 `;
@@ -418,13 +468,12 @@ export const SocialMediaMobile = styled.section`
 //intro mobile
 export const IntroMobile = styled.section`
   padding-top: 20%;
-  width: 100%;
-  height: 700px;
+  width: 420px;
+  height: 800px;
   background-color: ${colors.intro};
   flex-direction: column;
   justify-content: flex-start;
-
-  .img {
+  display: flex .img {
     position: relative;
   }
 
@@ -474,7 +523,7 @@ export const AboutusMobile = styled.section`
   padding-top: 30%;
   padding-left: 10%;
   padding-right: 10%;
-  width: 100%;
+  width: 420px;
   height: 700px;
   text-align: left;
   font-size: small;
@@ -495,6 +544,8 @@ export const AboutusMobile = styled.section`
 
   .imageabout {
     margin-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 `;
 
@@ -506,8 +557,8 @@ export const ServicesMobile = styled.section`
   padding-right: 10%;
   font-size: small;
   padding-top: 30%;
-  width: 100%;
-  height: 700px;
+  width: 420px;
+  height: 800px;
 
   .circles {
     display: flex;
@@ -515,6 +566,137 @@ export const ServicesMobile = styled.section`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+`;
+
+//testimonies mobile
+export const TestimoniesMobile = styled.section`
+  background-color: ${colors.intro};
+  text-align: left;
+  font-size: small;
+  padding-top: 30%;
+  width: 420px;
+  height: 1000px;
+
+  .testimoniestext {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .testimonio1 {
+    padding-left: 5%;
+  }
+
+  .testimonio2 {
+    padding-left: 20%;
+  }
+
+  .testimonio3 {
+    padding-left: 5%;
+  }
+`;
+
+//mobile Form
+export const MobileFormStyle = styled.section`
+  display: flex;
+  width: 420px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  margin-top: 50px;
+  padding-top: 20%;
+  flex-wrap: wrap h2 {
+    font-size: small;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: HelveticaBold;
+  }
+  p {
+    font-size: small;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: HelveticaRoman;
+    color: ${colors.text};
+  }
+
+  .mobilestyledform input {
+    width: 90%;
+    background-color: ${colors.color1};
+    border: 2px solid ${colors.color1};
+    border-radius: 8px;
+    color: ${colors.color2};
+    opacity: 0.8;
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .mobilestyledform placeholder {
+    color: ${colors.color2};
+  }
+
+  .mobilestyledform button {
+    padding: 0px;
+    font-family: Summer;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    border: 2px solid #fa8184;
+    color: white;
+    transition-duration: 0.4s;
+  }
+`;
+//mobile Footer
+export const MobileFooter = styled.section`
+  align-items: center;
+  text-align: left;
+  padding: 5%;
+  background-color: ${colors.color2};
+  color: white;
+  text-align: center;
+  line-height: 0.8em;
+  width: 420px;
+
+  h6 {
+    font-family: HelveticaBold;
+    font-size: small;
+    line-height: 0.8em;
+  }
+
+  p {
+    font-family: Helvetica;
+    font-size: small;
+    line-height: 0.9em;
+  }
+  .direction {
+    margin-left: 5%;
+    font-size: small;
+    align-content: center;
+  }
+`;
+
+export const Designfootermobile = styled.section`
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: ${colors.copywrite};
+  color: white;
+  padding-top: 10px;
+  width: 420px;
+
+  p {
+    font-family: HelveticaRoman;
+    font-size: small;
   }
 
   .img {

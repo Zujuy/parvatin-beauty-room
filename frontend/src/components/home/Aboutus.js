@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import aboutusimage from '../../images/aboutusimage.png';
 import { About } from '../../style/components';
 
-function Aboutus() {
+function Aboutus(props) {
   return (
     <About>
       <div classname="text">
@@ -18,7 +18,7 @@ function Aboutus() {
           </strong>
           , de forma personalizada y siempre de la mano de una experta
         </p>
-        <button type="button">
+        <button type="button" onClick={props.scroll}>
           <h2>CONTINUA LEYENDO ></h2>
         </button>
       </div>
