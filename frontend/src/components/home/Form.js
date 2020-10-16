@@ -11,7 +11,8 @@ function Form(props) {
   const handleRegister = () => {
     postRegisterPotentialUserService(form)
       .then((response) => {
-        props.history.push('/');
+        console.log(response);
+        //props.history.push('/');
       })
       .catch((err) => {
         console.log(err.response);
