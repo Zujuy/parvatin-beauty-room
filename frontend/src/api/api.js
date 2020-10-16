@@ -7,7 +7,7 @@ axios.defaults.withCredentials = true;
 
 export const postRegisterPotentialUserService = (form) => {
   return axios
-    .post(`${baseURL}/sendmail`, form)
+    .post(`${baseURL}/sendmail/`, form)
     .then(({ data }) => data)
     .catch(({ response }) => {
       throw response.data;
