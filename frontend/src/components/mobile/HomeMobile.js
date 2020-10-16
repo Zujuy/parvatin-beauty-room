@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { withRouter } from 'react-router-dom';
 import logo from '../../images/parvati_logo.png';
 import beautyintro from '../../images/beautymobile.png';
@@ -25,7 +25,11 @@ import {
 } from '../../style/components';
 import SocialBar from '../../components/home/SocialBar';
 
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
 function HomeMobile() {
+  const myRef = useRef(null);
+  const executeScroll = () => scrollToRef(myRef);
   return (
     <div>
       <SocialBar />
@@ -47,7 +51,11 @@ function HomeMobile() {
           <div className="images">
             <img src={beautyintro} alt="Beauty" />
             <div className="boton1">
-              <button type="button" class="btn text-light">
+              <button
+                type="button"
+                class="btn text-light"
+                onClick={executeScroll}
+              >
                 <h4>CLICK AQUÍ</h4>
               </button>
             </div>
@@ -55,7 +63,11 @@ function HomeMobile() {
             <br></br>
             <img src={nutritionintro} alt="Nutrition" />
             <div className="boton2">
-              <button type="button" class="btn text-light">
+              <button
+                type="button"
+                class="btn text-light"
+                onClick={executeScroll}
+              >
                 <h4>¡EMPIEZA AHORA!</h4>
               </button>
             </div>
@@ -63,7 +75,11 @@ function HomeMobile() {
             <br></br>
             <img src={massageintro} alt="Massage" />
             <div className="boton3">
-              <button type="button" class="btn text-light">
+              <button
+                type="button"
+                class="btn text-light"
+                onClick={executeScroll}
+              >
                 <h4>¡EMPIEZA AHORA!</h4>
               </button>
             </div>
@@ -87,7 +103,11 @@ function HomeMobile() {
               , de forma personalizada y siempre de la mano de una experta
             </p>
             <div className="botonabout">
-              <button type="button" class="btn text-light">
+              <button
+                type="button"
+                class="btn text-light"
+                onClick={executeScroll}
+              >
                 <h4>¡CONTINUA LEYENDO!</h4>
               </button>
               <br></br>
@@ -101,7 +121,7 @@ function HomeMobile() {
 
       <div>
         <ServicesMobile>
-          <div className="servicetext">
+          <div className="servicetext" ref={myRef}>
             <h5>NUESTROS SERVICIOS</h5>
             <p>
               En nuestro cuerpo todo está conectado y si nos ponemos a trabajar
