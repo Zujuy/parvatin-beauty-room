@@ -119,9 +119,9 @@ function HomeMobile() {
           </div>
           <div className="circles">
             <img src={beautycircle} alt="beauty" />
-            <p>Tratamientos, productos y cuidado para el cuerpo.</p>
-            <p>Faciales, masajes, belleza, TX's corporales.</p>
+
             <img src={nutritioncircle} alt="nutrition" />
+
             <img src={workoutcircle} alt="workout" />
           </div>
         </ServicesMobile>

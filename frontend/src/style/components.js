@@ -516,4 +516,12 @@ export const ServicesMobile = styled.section`
     justify-content: space-between;
     align-items: center;
   }
+
+  .img {
+    order: 1;
+  }
+  .p {
+    order: 2;
+    margin-left: 50%;
+  }
 `;
