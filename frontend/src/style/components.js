@@ -424,8 +424,9 @@ export const HomeMobileStyle = styled.section`
 
 //socialmedia
 export const SocialMediaMobile = styled.section`
-  .icon-bar {
+  .icon-bar-mobile {
     display: flex;
+    position: fixed;
     flex-direction: row;
     top: 5%;
     -webkit-transform: translateX(60%);
@@ -433,7 +434,7 @@ export const SocialMediaMobile = styled.section`
     transform: translateX(60%);
   }
 
-  .icon-bar a {
+  .icon-bar-mobile a {
     display: block;
     text-align: center;
     padding: 16px;
@@ -442,11 +443,11 @@ export const SocialMediaMobile = styled.section`
     font-size: 20px;
   }
 
-  .icon-bar a:hover {
+  .icon-bar-mobile a:hover {
     background-color: #fa8184;
   }
 
-  .facebook {
+  .facebook-mobile {
     background: #334353;
     color: white;
     border-radius: 50%;
@@ -454,7 +455,7 @@ export const SocialMediaMobile = styled.section`
     width: 60px;
   }
 
-  .instagram {
+  .instagram-mobile {
     background: #334353;
     color: white;
     border-radius: 50%;
@@ -471,6 +472,7 @@ export const IntroMobile = styled.section`
   background-color: ${colors.intro};
   flex-direction: column;
   justify-content: flex-start;
+  display: flex
 
   .img {
     position: relative;

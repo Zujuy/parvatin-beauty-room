@@ -1,10 +1,46 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { SocialMediaMenu } from '../../style/components';
+import { SocialMediaMenu, SocialMediaMobile } from '../../style/components';
+import { useMediaQuery, MediaQuery } from 'react-responsive';
 
-function RRSSBar() {
+function SocialBar() {
+  const isMobile = useMediaQuery({
+    query: '(max-device-width: 812px)',
+  });
+
+  const isDesktop = useMediaQuery({
+    query: '(min-device-width: 813px)'
+  })
   return (
-    <SocialMediaMenu>
+    <>
+    {
+      isMobile && (
+          
+          <SocialMediaMobile>
+            <div class="icon-bar-mobile">
+          <a
+            href="https://www.instagram.com/parvati.br/"
+            target="_blank"
+            class="instagram-mobile"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/Parvati-Beauty-Room-103248328161616"
+            target="_blank"
+            class="facebook-mobile"
+          >
+            <i class="fa fa-facebook"></i>
+          </a>
+        </div>
+          </SocialMediaMobile>
+        
+      )
+    }
+    {
+      isDesktop && (
+<SocialMediaMenu>
       <div class="icon-bar">
         <a
           href="https://www.facebook.com/Parvati-Beauty-Room-103248328161616"
@@ -29,6 +65,11 @@ function RRSSBar() {
         </a>
       </div>
     </SocialMediaMenu>
+      )
+    }
+
+    </>
+    
   );
 }
-export default withRouter(RRSSBar);
+export default withRouter(SocialBar);

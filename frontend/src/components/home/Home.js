@@ -12,20 +12,26 @@ import HomeMobile from '../mobile/HomeMobile';
 import RRSSBar from './SocialBar';
 
 function Home() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(max-device-width: 1024px)',
+  const isMobile = useMediaQuery({
+    query: '(max-device-width: 720px)',
   });
 
+  const isDesktop = useMediaQuery({
+    query: '(min-device-width: 1024px)'
+  })
   return (
     <div>
-      {isDesktopOrLaptop && (
+      {isMobile && (
         <>
           {' '}
           <HomeMobile />{' '}
         </>
       )}
-
-      <div className="home">
+      {
+        isDesktop && (
+          <>
+          <RRSSBar />
+          <div className="home">
         <img src={logo} alt="logo" />
         <div className="hometitle">
           <h3>Es momento de empezar a cuidarte</h3>
@@ -58,6 +64,10 @@ function Home() {
       <div>
         <Footer2 />
       </div>
+          </>
+        )
+      }
+      
     </div>
   );
 }

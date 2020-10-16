@@ -13,29 +13,13 @@ import { SocialMediaMobile } from '../../style/components';
 import { IntroMobile } from '../../style/components';
 import { AboutusMobile } from '../../style/components';
 import { ServicesMobile } from '../../style/components';
+import SocialBar from '../../components/home/SocialBar'
+
 
 function HomeMobile() {
   return (
     <div>
-      <SocialMediaMobile>
-        <div class="icon-bar">
-          <a
-            href="https://www.instagram.com/parvati.br/"
-            target="_blank"
-            class="instagram"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-
-          <a
-            href="https://www.facebook.com/Parvati-Beauty-Room-103248328161616"
-            target="_blank"
-            class="facebook"
-          >
-            <i class="fa fa-facebook"></i>
-          </a>
-        </div>
-      </SocialMediaMobile>
+      <SocialBar />
       <div>
         <HomeMobileStyle>
           <div className="HomeMobile">
