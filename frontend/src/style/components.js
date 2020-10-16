@@ -415,7 +415,7 @@ export const SocialMediaMobile = styled.section`
   }
 `;
 
-//intro
+//intro mobile
 export const IntroMobile = styled.section`
   padding-top: 20%;
   width: 100%;
@@ -468,15 +468,17 @@ export const IntroMobile = styled.section`
   }
 `;
 
-//intro
+// About mobile
 export const AboutusMobile = styled.section`
-  padding-top: 20%;
+  display: flex;
+  padding-top: 30%;
   padding-left: 10%;
   padding-right: 10%;
   width: 100%;
   height: 700px;
   text-align: left;
   font-size: small;
+  flex-direction: column;
 
   .botonabout {
     position: absolute;
@@ -489,5 +491,29 @@ export const AboutusMobile = styled.section`
     font-family: Summer;
     margin-top: 0px;
     text-align: center;
+  }
+
+  .imageabout {
+    margin-top: 30%;
+  }
+`;
+
+//services mobile
+export const ServicesMobile = styled.section`
+  background-color: ${colors.color1};
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: small;
+  padding-top: 30%;
+  width: 100%;
+  height: 700px;
+
+  .circles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
 `;

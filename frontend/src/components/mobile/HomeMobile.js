@@ -4,10 +4,15 @@ import logo from '../../images/parvati_logo.png';
 import beautyintro from '../../images/beautymobile.png';
 import nutritionintro from '../../images/nutritionbeauty.png';
 import massageintro from '../../images/massageMobile.png';
+import aboutimage from '../../images/abutusmobile.png';
+import beautycircle from '../../images/beautycircle.png';
+import nutritioncircle from '../../images/nutritioncircle.png';
+import workoutcircle from '../../images/workoutcircle.png';
 import { HomeMobileStyle } from '../../style/components';
 import { SocialMediaMobile } from '../../style/components';
 import { IntroMobile } from '../../style/components';
 import { AboutusMobile } from '../../style/components';
+import { ServicesMobile } from '../../style/components';
 
 function HomeMobile() {
   return (
@@ -92,9 +97,34 @@ function HomeMobile() {
               <button type="button" class="btn text-light">
                 <h4>¡CONTINUA LEYENDO!</h4>
               </button>
+              <br></br>
+            </div>
+            <div className="imageabout">
+              <img src={aboutimage} alt="About" />
             </div>
           </div>
         </AboutusMobile>
+      </div>
+
+      <div>
+        <ServicesMobile>
+          <div className="servicetext">
+            <h5>NUESTROS SERVICIOS</h5>
+            <p>
+              En nuestro cuerpo todo está conectado y si nos ponemos a trabajar
+              en los buenos hábitos, no sabes lo positivo que esto puede
+              resultar para un óptimo funcionamiento del mismo.
+            </p>
+            <p>¡Nosotras te decimos cómo cuidarte!</p>
+          </div>
+          <div className="circles">
+            <img src={beautycircle} alt="beauty" />
+            <p>Tratamientos, productos y cuidado para el cuerpo.</p>
+            <p>Faciales, masajes, belleza, TX's corporales.</p>
+            <img src={nutritioncircle} alt="nutrition" />
+            <img src={workoutcircle} alt="workout" />
+          </div>
+        </ServicesMobile>
       </div>
     </div>
   );
