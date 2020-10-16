@@ -8,6 +8,7 @@ export const colors = {
   color2: '#FA8184',
   copywrite: '#1B2D3F',
   buttoncarrousel: '#DB0000',
+  intro: '#F5CAB1',
 };
 
 //carousel
@@ -411,5 +412,82 @@ export const SocialMediaMobile = styled.section`
     border-radius: 50%;
     height: 60px;
     width: 60px;
+  }
+`;
+
+//intro
+export const IntroMobile = styled.section`
+  padding-top: 20%;
+  width: 100%;
+  height: 700px;
+  background-color: ${colors.intro};
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .img {
+    position: relative;
+  }
+
+  .boton1 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Summer;
+    margin-left: 15%;
+    margin-top: -40px;
+  }
+
+  .boton2 {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Summer;
+    margin-left: 55%;
+    margin-top: -40px;
+  }
+
+  .boton3 {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Summer;
+    margin-left: 15%;
+    margin-top: -40px;
+  }
+`;
+
+//intro
+export const AboutusMobile = styled.section`
+  padding-top: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  height: 700px;
+  text-align: left;
+  font-size: small;
+
+  .botonabout {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Summer;
+    margin-top: 0px;
+    text-align: center;
   }
 `;
