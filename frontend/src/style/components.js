@@ -19,6 +19,7 @@ export const SocialMediaMenu = styled.section`
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    
   }
 
   .icon-bar a {
@@ -40,6 +41,7 @@ export const SocialMediaMenu = styled.section`
     border-radius: 50%;
     height: 60px;
     width: 60px;
+    
   }
 
   .instagram {
@@ -48,6 +50,7 @@ export const SocialMediaMenu = styled.section`
     border-radius: 50%;
     height: 60px;
     width: 60px;
+    margin-top: 15%;
   }
 
   .whatsapp {
@@ -56,12 +59,15 @@ export const SocialMediaMenu = styled.section`
     border-radius: 50%;
     height: 60px;
     width: 60px;
+    margin-top: 15%;
   }
 `;
 
 //carousel
 export const Carousel = styled.section`
 margin-top: 1080px;
+height: 1080px;
+width:1020px;
 display: flex;
 flex-wrap: nowrap;
 flex-direction: row;
@@ -80,8 +86,10 @@ export const CarouselStyled = styled.section`
   padding: 0;
 
   .boton1 {
-    margin-bottom: 30%;
-    width: 200px;
+    display: inline-block;
+    margin-bottom: 35%;
+    margin-left: -85%;
+    width: 250px;
     height: 50px;
     font-size: medium;
     background-color: ${colors.text};
@@ -93,7 +101,8 @@ export const CarouselStyled = styled.section`
   }
 
   .boton2 {
-    width: 200px;
+    display: inline-block;
+    width: 250px;
     height: 50px;
     font-size: medium;
     background-color: ${colors.buttoncarrousel};
@@ -101,12 +110,14 @@ export const CarouselStyled = styled.section`
     color: white;
     transition-duration: 0.4s;
     padding: 0px;
-    margin-left: 90%;
+    margin-left: 85%;
+    margin-bottom: 2%;
     font-family: Summer;
   }
 
   .boton3 {
-    width: 200px;
+    display: inline-block;
+    width: 250px;
     height: 50px;
     font-size: medium;
     background-color: ${colors.color2};
@@ -114,7 +125,7 @@ export const CarouselStyled = styled.section`
     color: white;
     transition-duration: 0.4s;
     margin-bottom: 30%;
-    margin-left: 80%;
+    margin-left: 82%;
     font-family: Summer;
   }
 `;
@@ -126,7 +137,9 @@ export const About = styled.section`
   align-items: center;
   text-align: left;
   padding: 2%;
-  margin-left: 40px;
+  margin-left: 10%;
+  margin-right:10%;
+  
 
   .text {
     width: 20%;
@@ -134,7 +147,7 @@ export const About = styled.section`
     order: 1;
     flex-grow: 1;
   }
-
+  
   h4 {
     font-size: xx-large;
     color: ${colors.text};
@@ -164,7 +177,6 @@ export const About = styled.section`
 
   .imageabout {
     width: 55%;
-    margin-right: 50%;
     display: inline-block;
     order: 2;
     flex-grow: 2;
@@ -185,6 +197,9 @@ export const OurServices = styled.section`
     align-items: center;
     margin-left: 5%;
     font-size: large;
+    padding-right:10%;
+    padding-left:10%;
+    
   }
 
   h4 {
@@ -207,23 +222,24 @@ export const IconsServices = styled.section`
   display: flex;
   background-color: ${colors.color1};
   width: 100%;
-  margin-left: 0px;
-  padding-left: 40px;
+  justify-content: space-between;
 
   .beautyicon {
     order: 1;
     flex-grow: 1;
+    margin-left:2%;
+    padding-left:1%
   }
   .nutritionicon {
     order: 2;
     flex-grow: 1;
-    padding-left: 50px;
+    margin-left:-2%;
   }
 
   .workouticon {
     order: 3;
     flex-grow: 1;
-    padding-left: 50px;
+  
   }
 `;
 
@@ -235,23 +251,24 @@ export const TextServices = styled.section`
   width: 100%;
   margin-left: 0px;
   padding-left: 40px;
+  justify-content:space-between;
+  padding-bottom: 50px;
 
   .textbeauty {
     order: 1;
-    flex-grow: 3;
-    padding: 0px;
+    flex-grow: 1;
+    margin-left:2%;
   }
 
   .textnutrition {
     order: 2;
-    flex-grow: 3;
-    padding: 0px;
+    flex-grow: 1;
+    
   }
 
   .textworkout {
     order: 3;
-    flex-grow: 3;
-    padding: 0px;
+    flex-grow: 1;
   }
 
   h4 {
@@ -279,10 +296,27 @@ export const TextServices = styled.section`
 
   .modal-title {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
     width: 100%;
     font-family: Acumin;
+  }
+
+  .text-modal1{
+    margin-left:5%;
+    margin-right:6%;
+    text-align:justify
+  }
+
+  .text-modal11{
+    margin-left:6%;
+    margin-right:7%;
+    text-align:justify
+  }
+
+  .text-modalii{
+    margin-left:7%;
+    margin-right:8%;
+    text-align:justify
   }
 `;
 //comentarios

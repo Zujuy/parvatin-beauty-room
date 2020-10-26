@@ -77,7 +77,7 @@ function Services() {
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p class="text-left">
+                  <p class="text-modal1">
                     Cada día son más las personas que se animan a realizarse
                     tratamientos estéticos para mejorar el aspecto de su piel.
                     <br></br> <br></br>
@@ -92,8 +92,8 @@ function Services() {
             </div>
           </div>
           <p>
-            Tratamientos, productos y cuidados para el cuerpo.<br></br>Faciales,
-            masajes, belleza, TX’s corporales
+            Tratamientos, productos y <br></br>cuidados para el cuerpo.<br></br><br></br>Faciales,
+            masajes, belleza, <br></br>TX’s corporales
           </p>
         </div>
         <div className="textnutrition">
@@ -131,7 +131,7 @@ function Services() {
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p class="text-left">
+                  <p class="text-modal11">
                     La buena alimentación es una forma excelente de ayudar a tu
                     cuerpo a mantenerse fuerte y sano, prevenir enfermedades y
                     mejorar el estado de ánimo.<br></br> <br></br>
@@ -143,7 +143,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <p>Planes alimenticios de acuerdo a cada estilo de vida y persona.</p>
+          <p>Planes alimenticios de <br></br>acuerdo a cada estilo de vida <br></br>y persona.</p>
         </div>
         <div className="textnutrition">
           {/* modal trigger */}
@@ -180,12 +180,10 @@ function Services() {
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p class="text-left">
+                  <p class="text-modalii">
                     El ejercicio físico es bueno para todas las partes del
                     cuerpo, incluida la mente.<br></br> <br></br>
-                    Ayuda a mantener tu cuerpo en en un peso saludable, a
-                    producir sustancias químicas que te hagan sentirte bien y
-                    reduce el riesgo de desarrollar algunas enfermedades.{' '}
+                    Ayuda a mantener tu cuerpo en un peso saludable, a producir sustancias químicas que te hagan sentir bien y reduce el riesgo de desarrollar algunas enfermedades.{' '}
                     <br></br> <br></br>Únete a los retos que tenemos preparados
                     para ti y mantente en forma.
                   </p>
@@ -195,12 +193,13 @@ function Services() {
             </div>
           </div>
           <p>
-            Retos Rutinas de ejercicios para hacer desde casa.<br></br>Retos
-            para lograr el cambio que tanto deseas.
+            Retos Rutinas de ejercicios para <br></br>hacer desde casa.<br></br><br></br>Retos
+            para lograr el cambio <br></br>que tanto deseas.
           </p>
         </div>
       </TextServices>
     </div>
+    
   );
 }
 export default withRouter(Services);

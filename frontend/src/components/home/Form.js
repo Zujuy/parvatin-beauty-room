@@ -22,16 +22,16 @@ function Form(props) {
   return (
     <div>
       <SignForm>
-        <h2>INSCRIBETE</h2>
+        <h2>INSCRÍBETE</h2>
         <p>
-          No te pierdas nada de nuestros próximos descuentos y promociones,solo
-          llena los siguientes campos.
+          No te pierdas nada de nuestros próximos descuentos y promociones.
+          Llena los siguientes campos.
         </p>
         <div className="styledform">
           <input
             type="text"
             name="name"
-            placeholder="Nombre Completo"
+            placeholder="Nombre completo"
             onChange={(e) => handleInputs(e)}
           />
 
@@ -49,7 +49,7 @@ function Form(props) {
             onChange={(e) => handleInputs(e)}
           />
           <br></br>
-          <button onClick={handleRegister}> Enviar </button>
+          <button onClick={handleRegister}> ENVIAR </button>
         </div>
         <br></br>
       </SignForm>
