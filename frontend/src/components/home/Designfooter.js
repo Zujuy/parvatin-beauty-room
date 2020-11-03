@@ -7,7 +7,7 @@ function Footer2() {
     <Designfooter>
       <div>
         <p>
-          Diseñado por: <strong>JÁBALI DIGITAL MARKETING</strong>
+          Diseñado por: <strong>JABALÍ DIGITAL MARKETING</strong>
         </p>
       </div>
     </Designfooter>

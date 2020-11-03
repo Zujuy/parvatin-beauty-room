@@ -20,16 +20,16 @@ function MobileForm(props) {
   return (
     <div>
       <MobileFormStyle>
-        <h2>INSCRIBETE</h2>
+        <h2>INSCRÍBETE</h2>
         <p>
-          No te pierdas nada de nuestros próximos descuentos y promociones,solo
-          llena los siguientes campos.
+          No te pierdas nada de nuestros próximos descuentos y promociones.<br></br>
+          Llena los siguientes campos.
         </p>
         <div className="mobilestyledform">
           <input
             type="text"
             name="name"
-            placeholder="Nombre Completo"
+            placeholder="Nombre completo"
             onChange={(e) => handleInputs(e)}
           />
           <input
@@ -45,7 +45,7 @@ function MobileForm(props) {
             onChange={(e) => handleInputs(e)}
           />
           <br></br>
-          <button onClick={handleRegister}> Enviar </button>
+          <button onClick={handleRegister}> ENVIAR </button>
           <br></br> <br></br>
         </div>
       </MobileFormStyle>

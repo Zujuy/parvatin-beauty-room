@@ -16,8 +16,8 @@ function Footer() {
           <p>+55 7422 6925 | +55 5040 8099</p>
           <p>beautyroom@parvati.com.mx</p>
           <p>
-            Cuauhtémoc, Fernando de Alva Ixtlilxóchitl 111A, Obrera, Cuauhtémoc,
-            06800 Ciudad de México, CDMX
+            Fernando de Alva Ixtlilxóchitl 111 A, Obrera,<br></br> Cuauhtémoc, 06800 Ciudad de México, CDMX.
+
           </p>
         </div>
       </Styledfooter>

@@ -451,7 +451,7 @@ export const HomeMobileStyle = styled.section`
   }
 
   h3 {
-    padding-top: 20%;
+    margin-top:-30%;
     font-size: large;
   }
 `;
@@ -463,18 +463,18 @@ export const SocialMediaMobile = styled.section`
     position: fixed;
     flex-direction: row;
     top: 10%;
-    -webkit-transform: translateX(60%);
-    -ms-transform: translateX(60%);
-    transform: translateX(60%);
+    -webkit-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    transform: translateX(30%);
   }
 
   .icon-bar-mobile a {
     display: block;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .icon-bar-mobile a:hover {
@@ -501,7 +501,8 @@ export const SocialMediaMobile = styled.section`
 
 //intro mobile
 export const IntroMobile = styled.section`
-  padding-top: 20%;
+  padding-top: 10%;
+  padding-left:5%;
   width: 420px;
   height: 800px;
   background-color: ${colors.intro};
@@ -510,18 +511,23 @@ export const IntroMobile = styled.section`
   display: flex .img {
     position: relative;
   }
+ .images{
+   margin-left:2px;
+   padding-left:0px;
+   width:60%;
+ }
 
   .boton1 {
     position: absolute;
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     background-color: ${colors.color2};
     border-radius: 8px;
     color: white;
     transition-duration: 0.4s;
-    font-family: Summer;
-    margin-left: 15%;
-    margin-top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+    margin-top: -50px;
   }
 
   .boton2 {
@@ -532,9 +538,9 @@ export const IntroMobile = styled.section`
     border-radius: 8px;
     color: white;
     transition-duration: 0.4s;
-    font-family: Summer;
-    margin-left: 55%;
-    margin-top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 58%;
+    margin-top: -60px;
   }
 
   .boton3 {
@@ -545,9 +551,13 @@ export const IntroMobile = styled.section`
     border-radius: 8px;
     color: white;
     transition-duration: 0.4s;
-    font-family: Summer;
-    margin-left: 15%;
-    margin-top: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 9%;
+    margin-top: -58px;
+  }
+
+  .h4{
+    font-size:10px;
   }
 `;
 
@@ -600,8 +610,8 @@ export const ServicesMobile = styled.section`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 5%;
   }
 `;
 
@@ -613,6 +623,8 @@ export const TestimoniesMobile = styled.section`
   padding-top: 30%;
   width: 420px;
   height: 1000px;
+  padding-left: 5%;
+  padding-right: 10%;
 
   .testimoniestext {
     padding-left: 5%;
@@ -624,7 +636,7 @@ export const TestimoniesMobile = styled.section`
   }
 
   .testimonio2 {
-    padding-left: 20%;
+    padding-left: 15%;
   }
 
   .testimonio3 {
@@ -635,7 +647,7 @@ export const TestimoniesMobile = styled.section`
 //mobile Form
 export const MobileFormStyle = styled.section`
   display: flex;
-  width: 420px;
+  width: 400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -694,7 +706,7 @@ export const MobileFormStyle = styled.section`
 export const MobileFooter = styled.section`
   align-items: center;
   text-align: left;
-  padding: 5%;
+  padding: 10%;
   background-color: ${colors.color2};
   color: white;
   text-align: center;
@@ -710,7 +722,7 @@ export const MobileFooter = styled.section`
   p {
     font-family: Helvetica;
     font-size: small;
-    line-height: 0.9em;
+    line-height: 1.3em;
   }
   .direction {
     margin-left: 5%;

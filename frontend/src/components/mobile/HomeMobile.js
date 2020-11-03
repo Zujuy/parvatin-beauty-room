@@ -50,41 +50,45 @@ function HomeMobile() {
         <IntroMobile>
           <div className="images">
             <img src={beautyintro} alt="Beauty" />
-            <div className="boton1">
+            </div>
+            <div className="boton1" >
               <button
                 type="button"
                 class="btn text-light"
                 onClick={executeScroll}
               >
-                <h4>CLICK AQUÍ</h4>
+                <p>CLICK AQUÍ</p>
               </button>
             </div>
             <br></br>
             <br></br>
+            <div className="images">
             <img src={nutritionintro} alt="Nutrition" />
+            </div>
             <div className="boton2">
               <button
                 type="button"
                 class="btn text-light"
                 onClick={executeScroll}
               >
-                <h4>¡EMPIEZA AHORA!</h4>
+                <p>CLICK AQUÍ</p>
               </button>
             </div>
             <br></br>
             <br></br>
+            <div className="images">
             <img src={massageintro} alt="Massage" />
+            </div>
             <div className="boton3">
               <button
                 type="button"
                 class="btn text-light"
                 onClick={executeScroll}
               >
-                <h4>¡EMPIEZA AHORA!</h4>
+                <p>CLICK AQUÍ</p>
               </button>
             </div>
             <div></div>
-          </div>
         </IntroMobile>
       </div>
 
@@ -92,15 +96,13 @@ function HomeMobile() {
         <AboutusMobile>
           <div classname="text">
             <h5>SOBRE NOSOTROS</h5>
-            <p>Somos un centro de bienestar integral para hombres y mujeres.</p>
-            <br></br>
-            <p>
+            <p>Somos un centro de bienestar integral para hombres y mujeres.<br></br>
               Nuestro objetivo es{' '}
               <strong>
                 inspirar a más personas a realizar un cambio de hábitos
-                estéticos, alimenticios y físicos
+                estéticos, alimenticios y físicos {' '}
               </strong>
-              , de forma personalizada y siempre de la mano de una experta
+               de forma personalizada y siempre de la mano de una experta.
             </p>
             <div className="botonabout">
               <button
@@ -108,7 +110,7 @@ function HomeMobile() {
                 class="btn text-light"
                 onClick={executeScroll}
               >
-                <h4>¡CONTINUA LEYENDO!</h4>
+                <h4>¡CONTIÚA LEYENDO!</h4>
               </button>
               <br></br>
             </div>
@@ -188,15 +190,15 @@ function HomeMobile() {
               5040 8099
               <br></br>
               <br></br>beautyroom@parvati.com.mx <br></br>
-              <br></br>Cuauhtémoc, Fernando de Alva Ixtlilxóchitl 111A, Obrera,
-              Cuauhtémoc, 06800 Ciudad de México, CDMX
+              <br></br>Fernando de Alva Ixtlilxóchitl 111 A, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX.
+
             </p>
           </div>
         </MobileFooter>
         <Designfootermobile>
           <div>
             <p>
-              Diseñado por: <strong>JÁBALI DIGITAL MARKETING</strong>
+              Diseñado por: <strong>JABALÍ DIGITAL MARKETING</strong>
             </p>
           </div>
         </Designfootermobile>
