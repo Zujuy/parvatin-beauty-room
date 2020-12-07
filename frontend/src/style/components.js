@@ -131,65 +131,54 @@ export const CarouselStyled = styled.section`
   }
 
 
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1500px){
     .boton1 {
-    display: inline-block;
-    margin-bottom: 15%;
+    margin-bottom: 32%;
     margin-left: -85%;
-    width: 250px;
-    height: 50px;
-    font-size: medium;
-    background-color: ${colors.text};
-    border-radius: 8px;
-    color: white;
-    transition-duration: 0.4s;
-    padding: 0px;
-    font-family: Summer;
-  }
-  }
-
-  @media only screen and (max-width: 992px){
-    .boton1 {
-    display: inline-block;
-    margin-bottom: 25%;
-    margin-left: -85%;
-    width: 250px;
-    height: 50px;
-    font-size: medium;
-    background-color: ${colors.text};
-    border-radius: 8px;
-    color: white;
-    transition-duration: 0.4s;
-    padding: 0px;
-    font-family: Summer;
   }
 
    .boton2 {
-    width: 250px;
-    height: 50px;
-    font-size: medium;
-    background-color: ${colors.buttoncarrousel};
-    border-radius: 8px;
-    color: white;
-    transition-duration: 0.4s;
-    padding: 0px;
-    margin-left: 71%;
-    margin-bottom: -5%;
-    font-family: Summer;
+    margin-left: 80%;
+    margin-bottom: 3%;
   }
 
    .boton3 {
-    display: inline-block;
-    width: 250px;
-    height: 50px;
-    font-size: medium;
-    background-color: ${colors.color2};
-    border-radius: 8px;
-    color: white;
-    transition-duration: 0.4s;
+    margin-bottom: 25%;
+    margin-left: 78%;
+  }
+  }
+
+    @media only screen and (max-width: 1250px){
+    .boton1 {
+    margin-bottom: 30%;
+    margin-left: -85%;
+  }
+
+   .boton2 {
+    margin-left: 80%;
+    margin-bottom: 2%;
+  }
+
+   .boton3 {
+    margin-bottom: 25%;
+    margin-left: 76%;
+  }
+  }
+
+  @media only screen and (max-width: 1000px){
+    .boton1 {
+    margin-bottom: 25%;
+    margin-left: -85%;
+  }
+
+   .boton2 {
+    margin-left: 71%;
+    margin-bottom: -5%;
+  }
+
+   .boton3 {
     margin-bottom: 20%;
     margin-left: 68%;
-    font-family: Summer;
   }
   }
 
@@ -276,8 +265,8 @@ export const OurServices = styled.section`
   p {
     font-size: large;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: HelveticaRoman;
   }
 `;
@@ -298,7 +287,7 @@ export const IconsServices = styled.section`
   .nutritionicon {
     order: 2;
     flex-grow: 1;
-    margin-left:-2%;
+    margin-left:1%;
   }
 
   .workouticon {
@@ -617,8 +606,17 @@ export const IntroMobile = styled.section`
     color: white;
     transition-duration: 0.4s;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 9%;
+    margin-left: 7%;
     margin-top: -58px;
+  }
+
+  #btext1{
+    font-size:14px;
+  }
+  #btext2{
+    padding:0px;
+    padding-top:7px;
+    font-size:12px;
   }
 
   .h4{
@@ -653,7 +651,7 @@ export const AboutusMobile = styled.section`
 
   .imageabout {
     margin-top: 30%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
   }
 `;
@@ -669,14 +667,56 @@ export const ServicesMobile = styled.section`
   width: 420px;
   height: 800px;
 
-  .circles {
+  .containeer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2%;
+    padding-left: -5%;
     padding-right: 5%;
+
+    .no-gutters {
+  margin-right: 0%;
+  margin-left: 10%;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+  }
+
+  .modal-contentm {
+    width: 300px;
+    background-color: ${colors.color2};
+    color: white;
+  }
+
+  .modal-titlem {
+    display: block;
+    margin-left: 15%;
+    width: 100%;
+    font-family: Acumin;
+  }
+
+  .text-modal1m{
+    margin-left:5%;
+    margin-right:6%;
+    text-align:justify
+  }
+
+  .text-modal11{
+    margin-left:6%;
+    margin-right:7%;
+    text-align:justify
+  }
+
+  .text-modalii{
+    margin-left:7%;
+    margin-right:8%;
+    text-align:justify
   }
 `;
 

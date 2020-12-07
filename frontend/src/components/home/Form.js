@@ -25,7 +25,7 @@ function Form(props) {
         <h2>INSCRÍBETE</h2>
         <p>
           No te pierdas nada de nuestros próximos descuentos y promociones.
-          Llena los siguientes campos.
+          Llena los siguientes campos:
         </p>
         <div className="styledform">
           <input

@@ -22,8 +22,8 @@ function MobileForm(props) {
       <MobileFormStyle>
         <h2>INSCRÍBETE</h2>
         <p>
-          No te pierdas nada de nuestros próximos descuentos y promociones.<br></br>
-          Llena los siguientes campos.
+          No te pierdas nada de nuestros próximos descuentos y promociones.
+          Llena los siguientes campos:
         </p>
         <div className="mobilestyledform">
           <input

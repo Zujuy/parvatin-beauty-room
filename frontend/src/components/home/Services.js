@@ -93,7 +93,7 @@ function Services() {
           </div>
           <p>
             Tratamientos, productos y <br></br>cuidados para el cuerpo.<br></br><br></br>Faciales,
-            masajes, belleza, <br></br>TX’s corporales
+            masajes, belleza, <br></br>TX’s corporales.
           </p>
         </div>
         <div className="textnutrition">
@@ -193,7 +193,7 @@ function Services() {
             </div>
           </div>
           <p>
-            Retos Rutinas de ejercicios para <br></br>hacer desde casa.<br></br><br></br>Retos
+            Rutinas de ejercicios para <br></br>hacer desde casa.<br></br><br></br>Retos
             para lograr el cambio <br></br>que tanto deseas.
           </p>
         </div>
