@@ -79,6 +79,7 @@ padding: 0 2rem;
 //carouselbootstrap
 export const CarouselStyled = styled.section`
   width: 100vw;
+  max-width:1800px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -128,6 +129,70 @@ export const CarouselStyled = styled.section`
     margin-left: 82%;
     font-family: Summer;
   }
+
+
+  @media only screen and (max-width: 1200px){
+    .boton1 {
+    display: inline-block;
+    margin-bottom: 15%;
+    margin-left: -85%;
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    background-color: ${colors.text};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 0px;
+    font-family: Summer;
+  }
+  }
+
+  @media only screen and (max-width: 992px){
+    .boton1 {
+    display: inline-block;
+    margin-bottom: 25%;
+    margin-left: -85%;
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    background-color: ${colors.text};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 0px;
+    font-family: Summer;
+  }
+
+   .boton2 {
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    background-color: ${colors.buttoncarrousel};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 0px;
+    margin-left: 71%;
+    margin-bottom: -5%;
+    font-family: Summer;
+  }
+
+   .boton3 {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    background-color: ${colors.color2};
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    margin-bottom: 20%;
+    margin-left: 68%;
+    font-family: Summer;
+  }
+  }
+
 `;
 
 //sobre nosotros
@@ -170,7 +235,7 @@ export const About = styled.section`
     border-radius: 8px;
     border: 2px solid #fa8184;
     color: white;
-    transition-duration: 0.4s;
+    transition-duration: 4.2s;
     padding: 0px;
     font-family: Summer;
   }
@@ -400,7 +465,7 @@ export const SignForm = styled.section`
     border-radius: 8px;
     border: 2px solid #fa8184;
     color: white;
-    transition-duration: 0.4s;
+    transition-duration: 4.2s;
   }
 `;
 // footer
@@ -580,7 +645,7 @@ export const AboutusMobile = styled.section`
     background-color: ${colors.color2};
     border-radius: 8px;
     color: white;
-    transition-duration: 0.4s;
+    transition-duration: 4.2s;
     font-family: Summer;
     margin-top: 0px;
     text-align: center;
@@ -699,7 +764,7 @@ export const MobileFormStyle = styled.section`
     border-radius: 8px;
     border: 2px solid #fa8184;
     color: white;
-    transition-duration: 0.4s;
+    transition-duration: 4.2s;
   }
 `;
 //mobile Footer

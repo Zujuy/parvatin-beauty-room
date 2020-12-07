@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbff7ccaeb86ed8ed920374612103bc1",
+    "revision": "d057f4cf786f1789bcf4bcdbdf9d3e9a",
     "url": "/index.html"
   },
   {
-    "revision": "12e3c9777f4a1ca8458d",
+    "revision": "27b9fbdd2145aeddaa00",
     "url": "/static/css/main.bf9e3f2e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.8bca360f.chunk.js"
   },
   {
-    "revision": "12e3c9777f4a1ca8458d",
-    "url": "/static/js/main.23f9a036.chunk.js"
+    "revision": "27b9fbdd2145aeddaa00",
+    "url": "/static/js/main.440d58e1.chunk.js"
   },
   {
     "revision": "cac43eba1dd2f9a98151",
@@ -56,36 +56,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/beauty_image.cf125d6b.png"
   },
   {
-    "revision": "0c7cbc5b0d59315f9c4737082f6fb66f",
-    "url": "/static/media/beautycircle.0c7cbc5b.png"
+    "revision": "2d292ec788b4c894cd80b7c696184dd1",
+    "url": "/static/media/beautycircle.2d292ec7.png"
   },
   {
-    "revision": "edec78d4caf54f54dd5fdf45c5771830",
-    "url": "/static/media/beautymobile.edec78d4.png"
+    "revision": "1c3d5218b1c5dc2f661324d90a0a76cd",
+    "url": "/static/media/beautymobile.1c3d5218.png"
   },
   {
     "revision": "f0d7d673ef06ec9cf090dc00572d63e4",
     "url": "/static/media/helveticaneueltstd-md.f0d7d673.otf"
   },
   {
-    "revision": "c5a806398aaef418161d3bf4254e7e5a",
-    "url": "/static/media/massageMobile.c5a80639.png"
+    "revision": "6ae45171111654ee8b1145114bad9a4f",
+    "url": "/static/media/massageMobile.6ae45171.png"
   },
   {
     "revision": "82893d35415bbe62dd469599d2d4e0a2",
     "url": "/static/media/nutrition_image.82893d35.png"
   },
   {
-    "revision": "75a74daeddb0c1bd0fca0fe6806dd9aa",
-    "url": "/static/media/nutritionbeauty.75a74dae.png"
+    "revision": "7e15d81728301ddd9aa200a00bc422e4",
+    "url": "/static/media/nutritionbeauty.7e15d817.png"
   },
   {
-    "revision": "b0f810fe264a6d9b417d6737a72a5651",
-    "url": "/static/media/nutritioncircle.b0f810fe.png"
+    "revision": "727c5c9e15db2bf869bfb900aa5d6eab",
+    "url": "/static/media/nutritioncircle.727c5c9e.png"
   },
   {
-    "revision": "aa012c1c84262ad71ba01b971872698f",
-    "url": "/static/media/opiniones.aa012c1c.png"
+    "revision": "675ea381fe4ebb33e7c65ba98a06b445",
+    "url": "/static/media/opiniones.675ea381.png"
   },
   {
     "revision": "e6d0013f2696f8bddec7a5d50a0c2249",
@@ -100,23 +100,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/parvatimobilelogo.27920d36.png"
   },
   {
-    "revision": "4f071c21da00f0f74158d331f3377bb7",
-    "url": "/static/media/testimonie1.4f071c21.png"
+    "revision": "0184860c282ca3bced002790efe5ad61",
+    "url": "/static/media/testimonie1.0184860c.png"
   },
   {
-    "revision": "99dfc3821e711d57a080c846d6540b46",
-    "url": "/static/media/testimonie2.99dfc382.png"
+    "revision": "354a2ed8b860a81232f40985c106d51a",
+    "url": "/static/media/testimonie2.354a2ed8.png"
   },
   {
-    "revision": "1b42b8404e00aa58f01926fce305c47a",
-    "url": "/static/media/testimonie3.1b42b840.png"
+    "revision": "71654ec1c29eb45cb6e322b09a7dea62",
+    "url": "/static/media/testimonie3.71654ec1.png"
   },
   {
     "revision": "16af350798713ba7cc9a6be98d851374",
     "url": "/static/media/workout_image.16af3507.png"
   },
   {
-    "revision": "97af7b99f6f5096f0feeb42286615913",
-    "url": "/static/media/workoutcircle.97af7b99.png"
+    "revision": "4747190cd06787e4bc86f5016014bfdb",
+    "url": "/static/media/workoutcircle.4747190c.png"
   }
 ]);
