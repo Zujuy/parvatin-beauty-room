@@ -78,12 +78,12 @@ padding: 0 2rem;
 `;
 //carouselbootstrap
 export const CarouselStyled = styled.section`
-  width: 100vw;
+  width: 100%;
   max-width:1800px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  overflow-y: scroll;
+  overflow-y: hidden;
   padding: 0;
 
   .boton1 {
