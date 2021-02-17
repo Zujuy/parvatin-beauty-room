@@ -83,7 +83,7 @@ export const CarouselStyled = styled.section`
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  overflow-y: scroll;
+  overflow-y: hidden;
   padding: 0;
 
   .boton1 {
